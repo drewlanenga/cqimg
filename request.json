@@ -1,0 +1,25 @@
+{
+	"w": 800,
+	"h": 450,
+	"padding": 30,
+	"selector": "#radar",
+	"chartData": {
+		"nodes": [
+			{"id": "team1", "name": "Management", "engage": 32, "explore": 12},
+			{"id": "team2", "name": "Sales", "engage": 87, "explore": 43},
+			{"id": "team3", "name": "Accounting", "engage": 50, "explore": 199},
+			{"id": "team4", "name": "Support", "engage": 80, "explore": 36},
+			{"id": "team5", "name": "Warehouse", "engage": 12, "explore": 85}
+		],
+		"edges": [
+			{"from": "team1", "to": "team2", "explore": 20},
+			{"from": "team1", "to": "team3", "explore": 11},
+			{"from": "team1", "to": "team5", "explore": 2},
+			{"from": "team2", "to": "team3", "explore": 16},
+			{"from": "team2", "to": "team4", "explore": 1},
+			{"from": "team2", "to": "team5", "explore": 3},
+			{"from": "team3", "to": "team5", "explore": 2},
+			{"from": "team4", "to": "team5", "explore": 1}
+		]
+	}
+}

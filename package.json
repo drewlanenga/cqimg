@@ -1,0 +1,11 @@
+{
+  "name"         : "cqimg",
+  "version"      : "0.0.1",
+  "dependencies" :  {
+    "css-parse"  : "1.6.0",
+    "d3"         : "3.5.0",
+    "svg2png"    : "1.1.1",
+    "express"    : "4.13.3",
+    "body-parser": "1.13.3"
+  }
+}
